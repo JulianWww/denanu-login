@@ -1,0 +1,71 @@
+{
+  "name": "denanu-login",
+  "version": "0.0.1-alpha.14",
+  "description": "React components for stand with react and save ukraine",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build": "rollup -c",
+    "prepublishOnly": "yarn build"
+  },
+  "np": {
+    "publish": false,
+    "tests": false
+  },
+  "keywords": [
+    "denanu",
+    "login",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JulianWww/denanu-login"
+  },
+  "author": "Julian Wandhoven",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "@babel/preset-typescript": "latest",
+    "@rollup/plugin-commonjs": "latest",
+    "@rollup/plugin-node-resolve": "latest",
+    "@rollup/plugin-typescript": "latest",
+    "@storybook/addon-actions": "latest",
+    "@storybook/addon-essentials": "latest",
+    "@storybook/addon-links": "latest",
+    "@storybook/addon-styling": "latest",
+    "@storybook/react": "latest",
+    "@storybook/addon-queryparams": "latest",
+    "@storybook/react-webpack5": "latest",
+    "@types/react": "latest",
+    "@types/react-transition-group": "latest",
+    "babel-loader": "latest",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "rollup": "latest",
+    "rollup-plugin-dts": "latest",
+    "rollup-plugin-peer-deps-external": "latest",
+    "rollup-plugin-postcss": "latest",
+    "storybook": "latest",
+    "typescript": "latest"
+  },
+  "peerDependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "crypto-hash": "latest",
+    "react-router-dom": "latest",
+    "react-transition-group": "latest"
+  }
+}

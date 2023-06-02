@@ -1,0 +1,17 @@
+{
+  "name": "denanu/login",
+  "description": "Login System byckend for denanu-login",
+  "version": "0.0.1",
+  "type": "library",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Julian Wandhoven",
+      "email": "julian.wandhoven@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
