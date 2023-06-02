@@ -18,7 +18,11 @@
     }
   },
   "archive": {
-    "exclude": ["/react", "/.github"]
+    "exclude": [
+      "*",
+      ".*",
+      "!/src/*"
+    ]
   },
   "minimum-stability": "dev"
 }
