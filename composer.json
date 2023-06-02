@@ -1,7 +1,7 @@
 {
   "name": "denanu/login",
   "description": "Login System backend for denanu-login",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "library",
   "require": {
     "php": ">=7.0"
@@ -12,6 +12,5 @@
       "name": "Julian Wandhoven",
       "email": "julian.wandhoven@gmail.com"
     }
-  ],
-  "minimum-stability": "dev"
+  ]
 }
