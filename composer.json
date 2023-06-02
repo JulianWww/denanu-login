@@ -1,12 +1,11 @@
 {
   "name": "denanu/login",
-  "description": "Login System byckend for denanu-login",
-  "version": "0.0.1",
+  "description": "Login System backend for denanu-login",
   "type": "library",
   "require": {
     "php": ">=7.0"
   },
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Julian Wandhoven",
