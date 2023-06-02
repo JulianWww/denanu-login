@@ -18,7 +18,7 @@
     }
   },
   "archive": {
-    "exclude": ["react", ".github"]
+    "exclude": ["react/**", ".github/**"]
   },
   "minimum-stability": "dev"
 }
