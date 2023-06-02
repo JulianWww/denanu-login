@@ -12,5 +12,13 @@
       "email": "julian.wandhoven@gmail.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+        "denanu\\login\\": "src/"
+    }
+  },
+  "archive": {
+    "exclude": ["react", ".github"]
+  },
   "minimum-stability": "dev"
 }
